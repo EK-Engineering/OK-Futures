@@ -1,19 +1,19 @@
 import Card from '../Card/Card.jsx';
 
 const content = [
-    {num: 1, txt: 'Help individuals make well-informed choices in education, training and careers'},
-    {num: 2, txt: 'Develop an integrated high-quality system of education and training that responds to constantly evolving needs'},
-    {num: 3, txt: 'Promote employer recognition and career development based on skills and mastery'},
-    {num: 4, txt: 'Foster a culture that supports and celebrates lifelong learning'}     
+    {num: 1, txt: 'Provide assistance in making informed decisions on education, training and careers.'},
+    {num: 2, txt: 'Develop an integrated high-quality system of education and training that is responsive to the evolving needs of our community.'},
+    {num: 3, txt: 'Encourage employer recognition and professional development based on skills and knowledge.'},
+    {num: 4, txt: 'Foster an environment that supports and rewards lifelong learning.'}     
     ]
 
 export default function KeyTruths() {
   return (
-    <div class="flex"> 
+    <div className="flex flex-row"> 
     {
       content.map(
         (truth) => 
-          <Card num={truth.num} txt={truth.txt} />
+          <Card key={truth.num + 1} num={truth.num} txt={truth.txt} />
         )
     }
     </div>
