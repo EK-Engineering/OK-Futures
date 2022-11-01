@@ -1,5 +1,6 @@
 import 'flowbite';
 import Header from '../../Components/Layout/Header';
+import Foot from '../../Components/Layout/Foot';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         Hello World!
     </h1>
    <header><Header/></header> 
+   <footer><Foot /></footer>
     <script src="../path/to/flowbite/dist/flowbite.js"></script>
     </div>
   )
