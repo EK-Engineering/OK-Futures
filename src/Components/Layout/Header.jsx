@@ -11,14 +11,14 @@ export default function Header() {
     fluid={true}
     rounded={true}
   >
-    <Navbar.Brand href="https://flowbite.com/">
+    <Navbar.Brand href="https://www.elocker.org/">
       <img
-        src="https://flowbite.com/docs/images/logo.svg"
+        src="https://place-puppy.com/300x300"
         className="mr-3 h-6 sm:h-9"
-        alt="Flowbite Logo"
+        alt="placepuppy Logo"
       />
       <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-        Flowbite
+        Oklahoma Futures
       </span>
     </Navbar.Brand>
     <Navbar.Toggle>
