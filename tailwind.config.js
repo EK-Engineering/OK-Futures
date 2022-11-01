@@ -3,7 +3,8 @@ module.exports = {
   //added flowbite into the content tag
   content: [
     "./src/**/*{.jsx,.js,}",
-    "./node_modules/flowbite/**/*{.jsx,.js,}"
+    "./node_modules/flowbite/**/*{.jsx,.js,}",
+    'node_modules/flowbite-react/**/*.{.js,.jsx,.ts,.tsx}'
   ],
   //the variables for tailwind. you can change or extend(which creates new ones)
   theme: {
