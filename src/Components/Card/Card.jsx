@@ -1,10 +1,10 @@
 // because tailwind doesn't support dynamic segments within classnames
 // we're storing the full classnames for each color in a variable which we'll call on, dependent on the prop passed to the card
 
-const greenStyle = "flex flex-row p-6 max-w-sm bg-green-l rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
-const blueStyle = "flex flex-row p-6 max-w-sm bg-blue-d rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
-const yellowStyle = "flex flex-row p-6 max-w-sm bg-yellow-d rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
-const rustStyle = "flex flex-row p-6 max-w-sm bg-rust-d rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+const greenStyle = "m-2 max-w-lg bg-green-l rounded-lg border border-gray-200 shadow-md"
+const blueStyle = "m-2 max-w-lg bg-blue-d rounded-lg border border-gray-200 shadow-md"
+const yellowStyle = "m-2 max-w-lg bg-yellow-d rounded-lg border border-gray-200 shadow-md"
+const rustStyle = "m-2 max-w-lg bg-rust-d rounded-lg border border-gray-200 shadow-md"
 
 export default function Card({ color, txt }) {
 
@@ -17,7 +17,7 @@ export default function Card({ color, txt }) {
 
   return (
     <div className={getBgColor()} >
-        <p className="font-normal text-white lg:text-gray-700 dark:text-gray-400">
+        <p className="leading-6 p-6 font-normal text-lg antialiased font-medium whitespace-pre-line text-justify text-txt">
             {txt}
         </p>
     </div>
