@@ -22,16 +22,17 @@ export default function Header() {
       </span>
     </Navbar.Brand>
     <Navbar.Toggle>
-    <span className="sr-only">Toggle Main Menu Bar</span>
+    <span class="sr-only">Toggle Main Menu Bar</span>
     </Navbar.Toggle>
     <Navbar.Collapse>
       <Navbar.Link
         href="/"
+        // active={true}
       >
         Home
       </Navbar.Link>
-      <Navbar.Link  href="/about">
-        About 
+      <Navbar.Link href="/about">
+        About
       </Navbar.Link>
     </Navbar.Collapse>
   </Navbar>
