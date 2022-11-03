@@ -1,9 +1,10 @@
-import VideoPlayer from '../.././Components/Video/VideoPlayer.jsx'
+import VideoPlayer from '../.././Components/Video/VideoPlayer.jsx';
+import stockvid from '../.././Assets/stockvid.mp4';
 
 export default function Home() {
   return (
-    <>
-    <VideoPlayer link='https://www.youtube.com/watch?v=AZals4U6Z_I'/>
-    </>
+    <div className="w-96 p-4">
+    <VideoPlayer content={stockvid}/>
+    </div>
   )
 }
