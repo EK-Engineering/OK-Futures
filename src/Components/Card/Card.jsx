@@ -17,7 +17,7 @@ export default function Card({ color, txt }) {
 
   return (
     <div className={getBgColor()} >
-        <p className="leading-6 p-6 font-normal text-lg antialiased font-medium whitespace-pre-line text-justify text-txt">
+        <p className="leading-6 p-6 font-normal text-lg antialiased font-medium whitespace-pre-line text-justify text-txt-l">
             {txt}
         </p>
     </div>

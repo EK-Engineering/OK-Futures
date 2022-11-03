@@ -22,7 +22,7 @@ module.exports = {
         'rust-d':  '#d15521',
         'green-d': '#30681f',
         'green-l': '#659c41',
-        'txt': '#f0f5f5'
+        'txt-l': '#f0f5f5'
       }
   },
   //tailwind specific, stuff only gets added here if the docs say so
