@@ -1,12 +1,10 @@
-import 'flowbite';
-import KeyTruths from '../.././Components/KeyTruths/KeyTruths.jsx';
-
+import VideoPlayer from '../.././Components/Video/VideoPlayer.jsx';
+import stockvid from '../.././Assets/stockvid.mp4';
 
 export default function Home() {
   return (
-    <>
-    <KeyTruths />
-    <script src="../path/to/flowbite/dist/flowbite.js"></script>
-    </>
+    <div className="w-96 p-4">
+    <VideoPlayer content={stockvid}/>
+    </div>
   )
 }
