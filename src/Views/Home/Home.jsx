@@ -7,7 +7,7 @@ import Foot from '../../Components/Layout/Foot.jsx';
 
 export default function Home() {
   return (
-    <div className="w-screen p-4 flex flex-col content-center">
+    <div className="w-screen p-5 flex flex-col items-center bg-bg-white lg:w-full">
       <Header />
       <VideoPlayer content={stockvid} />
       <KeyTruths />

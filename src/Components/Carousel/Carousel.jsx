@@ -5,7 +5,7 @@ import { Carousel, Card } from 'flowbite-react'
 
 export default function Carousels() {
   return (
-    <div className="flex min-h-100 h-150 sm:h-96">
+    <div className="flex min-h-100 h-150 sm:h-96 m-5 p-5">
     <Carousel indicators={false} className="h-100">
     <div className="max-w-sm">
   <Card imgSrc="https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
