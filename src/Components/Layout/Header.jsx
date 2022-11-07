@@ -6,7 +6,7 @@ import {Navbar} from "flowbite-react";
 
 export default function Header() {
   return (
-    <nav className="p-3 bg-gray-50 rounded border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+    <nav className="w-full p-3 rounded border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <Navbar
     fluid={true}
     rounded={true}
@@ -35,7 +35,7 @@ export default function Header() {
         About
       </Navbar.Link>
     </Navbar.Collapse>
-  </Navbar>
+        </Navbar>
   </nav>
   )
 }

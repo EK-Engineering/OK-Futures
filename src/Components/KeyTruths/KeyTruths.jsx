@@ -10,7 +10,7 @@ const content = [
 
 export default function KeyTruths() {
   return (
-    <div className="flex flex-col items-center w-screen tracking-normal "> 
+    <div className="flex flex-col items-center w-full tracking-normal "> 
       <h1 className="text-4xl font-bold p-2 text-zinc-900">Key Truths</h1>
     {
       content.map(
