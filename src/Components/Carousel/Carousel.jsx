@@ -5,8 +5,8 @@ import { Card } from "flowbite-react";
 export default function Carousel() {
   return (
     <>
-      <h1 className="text-4xl font-bold p-2 text-zinc-900 tracking-wide">
-        Key Truths</h1>
+      <h1 className="text-4xl font-bold p-2 text-zinc-900 tracking-wide m-5">
+        Get Started </h1>
       <div className="flex flex-row justify-between ">
         <div className="max-w-sm m-5">
           <Card
