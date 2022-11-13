@@ -23,7 +23,13 @@ module.exports = {
         'rust-d':  '#d15521',
         'green-d': '#30681f',
         'green-l': '#659c41',
-        'txt-l': '#f0f5f5'
+        'txt-l': '#f0f5f5',
+        'bg-1': '#F8F3F2',
+        'bg-2': '#F9F5F4',
+        'bg-white': '#F7F5F3',
+      },
+      fontFamily: {
+        'poppins': ['"Poppins"', 'sans-serif']
       }
   },
   //tailwind specific, stuff only gets added here if the docs say so

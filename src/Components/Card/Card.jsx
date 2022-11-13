@@ -15,12 +15,12 @@ export default function Card({ color, txt }) {
         if (color === 'yellow') return yellowStyle;
     }
 
-  return (
-    <div className={getBgColor()} >
-        <p className="leading-6 p-6 font-normal text-lg antialiased font-medium whitespace-pre-line text-justify text-txt-l">
-            {txt}
-        </p>
-    </div>
-        )
-    }
+    return (
+        <div className={getBgColor()} >
+            <p className="leading-6 p-6 font-normal text-lg antialiased font-medium whitespace-pre-line text-justify text-txt-l">
+                {txt}
+            </p>
+        </div>
+    )
+}
 
