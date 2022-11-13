@@ -1,5 +1,3 @@
-import React from 'react'
-import 'flowbite';
 import { Navbar } from "flowbite-react";
 
 //documentation for flowbite does not explicitly explain how to get this working, have to call in the { Navbar } from flowbite-react instead of just importing flowbite generally. 
