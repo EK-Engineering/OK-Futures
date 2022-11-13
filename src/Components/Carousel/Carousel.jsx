@@ -1,39 +1,54 @@
-import React from 'react'
-import { Carousel, Card } from 'flowbite-react'
-
 //please note that the height is being fickled, but I have high hopes that this will get resolved in the merge and we start aligning things on the page. 
 
-export default function Carousels() {
+import { Card } from "flowbite-react";
+
+export default function Carousel() {
   return (
-    <div className="flex min-h-100 h-150 sm:h-96 m-5 p-5">
-    <Carousel indicators={false} className="h-100">
-    <div className="max-w-sm">
-  <Card imgSrc="https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      Medical Technology
-    </h5>
-    {/* button or whole card a link? */}
-    <button>More Details!</button>
-  </Card>
-</div>
-<div className="max-w-sm">
-  <Card imgSrc="https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?cs=srgb&dl=pexels-pixabay-46148.jpg&fm=jpg&_gl=1*1j0y0l4*_ga*MTA2OTg5NjMwMy4xNjY3NTAxNDY0*_ga_8JE65Q40S6*MTY2NzUwMTQ2NS4xLjEuMTY2NzUwMTUxMy4wLjAuMA..">
-    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      Airplane Technology
-    </h5>
-    <button>More Details!</button>
-  </Card>
-</div>
-<div className="max-w-sm">
-  <Card imgSrc="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      Noteworthy Technology
-    </h5>
-    <button>More Details!</button>
- </Card>
- </div>
-  </Carousel>
- </div>
+    <>
+      <h1 className="text-4xl font-bold p-2 text-zinc-900 tracking-wide">
+        Key Truths</h1>
+      <div className="flex flex-row justify-between ">
+        <div className="max-w-sm m-5">
+          <Card
+            imgAlt="Meaningful alt text for an image that is not purely decorative"
+            imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              SKILLS DEMAND FOR THE FUTURE ECONOMY
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            Find out the priority skills and jobs in demand in three growth areas - the Digital, Green, and Care economies - and use it to guide your skills development in the next one to three years.
+            </p>
+          </Card>
+        </div>
+        <div className="max-w-sm m-5">
+          <Card
+            imgAlt="Meaningful alt text for an image that is not purely decorative"
+            imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            SKILLSFUTURE MID-CAREER SUPPORT PACKAGE
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            This program aims to create more career transition opportunities for individuals in their 40s to 50s, and help them remain employable and be able to access employment.
+            </p>
+          </Card>
+        </div>
+        <div className="max-w-sm m-5">
+          <Card
+            imgAlt="Meaningful alt text for an image that is not purely decorative"
+            imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            SKILLSFUTURE CAREER TRANSITION PROGRAMME
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              The SkillsFuture Career Transition Programme (SCTP) supports mid-career individuals in acquiring industry-relevant skills to improve employability and pivot to new sectors or job roles.
+            </p>
+          </Card>
+        </div>
+      </div>
+    </>
   )
 }
 
