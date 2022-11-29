@@ -5,7 +5,7 @@
 export default function VideoPlayer({ content }) {
   return (
     <>
-      <h3 className="text-4xl font-bold p-2 text-zinc-900 tracking-wide m-5">What is OK Futures?</h3>
+      <h3 className="text-4xl font-bold p-2 text-zinc-900 tracking-wide m-5">What is Oklahoma Futures?</h3>
       <div className='flex flex-col w-100 bg-transparent mx-auto h-100'>
         <div class="flex flex-row m-5">
           <video className="h-80" controls>
