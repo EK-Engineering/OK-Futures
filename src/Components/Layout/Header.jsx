@@ -9,7 +9,7 @@ export default function Header() {
         fluid={true}
         rounded={true}
       >
-        <Navbar.Brand href="https://www.elocker.org/">
+        <Navbar.Brand>
           <img
             src="https://place-puppy.com/300x300"
             className="mr-3 h-6 sm:h-9"
