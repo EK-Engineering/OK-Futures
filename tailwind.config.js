@@ -30,6 +30,9 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['"Poppins"', 'sans-serif']
+      },
+      backgroundImage: {
+        'prelaunch': "url('./Assets/bg-img.jpg')",
       }
   },
   //tailwind specific, stuff only gets added here if the docs say so
