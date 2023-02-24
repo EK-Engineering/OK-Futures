@@ -24,6 +24,7 @@ module.exports = {
         'green-d': '#30681f',
         'green-l': '#659c41',
         'txt-l': '#f0f5f5',
+        'txt-dark': '#181818',
         'bg-1': '#F8F3F2',
         'bg-2': '#F9F5F4',
         'bg-white': '#F7F5F3',

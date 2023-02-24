@@ -12,7 +12,11 @@ export default function Prelaunch() {
                         bg-clip-border
                         bg-center
                         ">
-                <p className="text-center grid h-screen place-items-center">this is a div</p>
+                <p className="leading-9 font-semibold text-3xl text-center grid h-screen place-items-center font-poppins text-txt-dark">
+                    Take control of your future!
+                    <br />
+                    <br />
+                    Coming Soon. </p>
     
             </div>
         </div>
